@@ -1,3 +1,1 @@
 # rent
-
-# reservasi
