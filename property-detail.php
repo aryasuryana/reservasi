@@ -2,7 +2,7 @@
 <!-- banner -->
 <div class="inside-banner">
   <div class="container"> 
-    <span class="pull-right"><a href="index.php">Dashboard</a></span>
+    <span class="pull-right"><a href="index.php">Dashboard</a> / Detail</span>
     <h2>Sewa</h2>
 </div>
 </div>
@@ -38,13 +38,6 @@
   <div class="property-images">
     <!-- Slider Starts -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators hidden-xs">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="3" class=""></li>
-      </ol>
       <div class="carousel-inner">
         <!-- Item 1 -->
         <div class="item active">
@@ -52,28 +45,8 @@
         </div>
         <!-- #Item 1 -->
 
-        <!-- Item 2 -->
-        <div class="item">
-          <img src="images/properties/2.jpg" class="properties" alt="properties" />
-         
-        </div>
-        <!-- #Item 2 -->
-
-        <!-- Item 3 -->
-         <div class="item">
-          <img src="images/properties/1.jpg" class="properties" alt="properties" />
-        </div>
-        <!-- #Item 3 -->
-
-        <!-- Item 4 -->
-        <div class="item ">
-          <img src="images/properties/3.jpg" class="properties" alt="properties" />
-          
-        </div>
-        <!-- # Item 4 -->
+     
       </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div>
 <!-- #Slider Ends -->
 
@@ -99,24 +72,21 @@
   <p class="area"><span class="glyphicon glyphicon-map-marker"></span> 344 Villa, Syndey, Australia</p>
   
   <div class="profile">
-  <span class="glyphicon glyphicon-user"></span> Agent Details
+  <span class="glyphicon glyphicon-user"></span> Pemilik Tempat
   <p>John Parker<br>009 229 2929</p>
   </div>
 </div>
 
-    <h6><span class="glyphicon glyphicon-home"></span> Availabilty</h6>
-    <div class="listing-detail">
-    <span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">5</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div>
 
 </div>
 <div class="col-lg-12 col-sm-6 ">
 <div class="enquiry">
-  <h6><span class="glyphicon glyphicon-envelope"></span> Post Enquiry</h6>
+  <h6><span class="glyphicon glyphicon-envelope"></span>Pesan</h6>
   <form role="form">
-                <input type="text" class="form-control" placeholder="Full Name"/>
-                <input type="text" class="form-control" placeholder="you@yourdomain.com"/>
-                <input type="text" class="form-control" placeholder="your number"/>
-                <textarea rows="6" class="form-control" placeholder="Whats on your mind?"></textarea>
+                <input type="text" class="form-control" placeholder="Nama Pemesan"/>
+                <input type="text" class="form-control" placeholder="Email"/>
+                <input type="text" class="form-control" placeholder="Nomor Yang Busa DiHubungi"/>
+                <textarea rows="6" class="form-control" placeholder="Menyewa untuk apa"></textarea>
       <button type="submit" class="btn btn-primary" name="Submit">Send Message</button>
       </form>
  </div>         

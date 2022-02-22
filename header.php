@@ -76,7 +76,7 @@
 
 <!-- Header Starts -->
 <div class="header">
-<a href="index.php"><img src="images/logo.png" alt="Realestate"></a>
+<a href="index.php"><img src="images/icon.png" alt="Realestate"></a>
 
 
 </div>
