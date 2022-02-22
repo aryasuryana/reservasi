@@ -17,10 +17,8 @@
   <!-- blog detail -->
   <h2>Gedung Sultan Suriansyah</h2>
   <div class="info">Banjarmasin</div>
-  <img src="images/blog/1.jpg" class="thumbnail img-responsive"  alt="blog title">
- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  <img src="images/blog/1.jpg" class="thumbnail img-responsive">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.056538536433!2d114.56156894822092!3d-3.298651765182204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de42250b1c0fd41%3A0x545d840a6fcfae33!2sPulau%20Kembang!5e0!3m2!1sid!2sid!4v1644380852074!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
   <!-- blog detail -->
 
 
@@ -90,7 +88,7 @@
               
             </div>
   <!-- tabs -->
-
+    <button type="button" class="btn btn-primary">Pesan</button>
 
   </div>
 </div>

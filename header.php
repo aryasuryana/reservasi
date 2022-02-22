@@ -54,9 +54,9 @@
             <!-- Nav Starts -->
             <div class="navbar-collapse  collapse">
               <ul class="nav navbar-nav navbar-right">
-               <li class="active"><a href="index.php">Dashboard</a></li>
-                <!-- <li><a href="blog.php">Daftar Gedung</a></li>  -->      
-                <li><a href="contact.php">Pemesanan </a></li>
+               <li><a href="index.php">Dashboard</a></li>      
+                <li><a href="blog.php">Daftar Gedung </a></li>
+                <li><a href="contact.php">Pemesanan</a></li>
                 <li><a href="Tambah.php">Tambah Gedung</a></li>
               </ul>
             </div>

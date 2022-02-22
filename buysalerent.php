@@ -18,13 +18,13 @@
   <div class="search-form"><h4><span class="glyphicon glyphicon-search"></span> Search for</h4>
     <input type="text" class="form-control" placeholder="Search of Properties">
     <div class="row">
-            <div class="col-lg-5">
+        <!--     <div class="col-lg-5">
               <select class="form-control">
                 <option>Buy</option>
                 <option>Rent</option>
                 <option>Sale</option>
               </select>
-            </div>
+            </div> -->
             <div class="col-lg-7">
               <select class="form-control">
                 <option>Price</option>

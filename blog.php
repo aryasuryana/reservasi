@@ -84,8 +84,8 @@
   </div>
   <div class="col-lg-4 visible-lg">
 
-  <!-- tabs -->
-  <div class="tabbable">
+<!-- tabs -->
+  <!-- <div class="tabbable">
               <ul class="nav nav-tabs">
                 <li class=""><a href="#tab1" data-toggle="tab">Recent Post</a></li>
                 <li class=""><a href="#tab2" data-toggle="tab">Most Popular</a></li>
@@ -143,7 +143,7 @@
               
               
               
-            </div>
+            </div> -->
   <!-- tabs -->
 
   </div>
