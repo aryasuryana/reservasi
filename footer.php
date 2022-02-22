@@ -9,10 +9,10 @@
 
 
              <div class="row">
-            <div class="col-lg-4 col-sm-4">
-                    <h4>Ikuti Kami</h4>
-                    <a href="https://wa.me/6285822336586"><img src="images/images.png" alt="whatsapp"></a>
-                    <a href="https://www.instagram.com/lanlanaaa_/"><img src="images/instagram.png" alt="instagram"></a>
+            <!-- <div class="col-lg-4 col-sm-4"> -->
+                    <!-- <h4>Ikuti Kami</h4>
+                    <a href="https://wa.me/6285822336586"><img src="images/wa.png" alt="whatsapp"></a>
+                    <a href="https://www.instagram.com/lanlanaaa_/"><img src="images/instagram.png" alt="instagram"></a> -->
             </div>
 
 
@@ -31,11 +31,11 @@
                     <h4>Kontak</h4>
                     <p><b>PT. Cinta Sejati</b><br>
 <span class="glyphicon glyphicon-map-marker"></span> HBI, Banjarmasin <br>
-<span class="glyphicon glyphicon-envelope"></span> aryasuryanaofficial@gmail.com<br>
+<span class="glyphicon glyphicon-envelope"></span> emailini@gmail.com<br>
 <span class="glyphicon glyphicon-earphone"></span> 085822336586</p>
             </div>
         </div>
-<p class="copyright">Copyright 2022. Amak barbera</p>
+<!-- <p class="copyright">Copyright 2022.</p> -->
 
 
 </div></div>
