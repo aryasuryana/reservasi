@@ -1,77 +1,32 @@
-<?php include'header.php';?>
+<?php 
 
-<div class="inside-banner">
-  <div class="container"> 
-    <div class="searchbar">
-    <span class="pull-right"><a href="index.php">Dashboard</a></span>
-      
-            </div>
-          
-              <div class="col-lg-4 col-sm-4">
-              <button class="btn btn-success"  onclick="window.location.href='blog.php'">Cari Sekarang</button>
-              </div>
-          </div>
-          
-          
-        </div>
-  
-      </div>
-    </div>
-  </div>
-</div>
-<!-- banner -->
-<div class="container">
-  <div class="properties-listing spacer"> <a href="blog.php" class="pull-right viewall">Lihat Semua</a>
-    <h2>Gedung</h2>
-    <div id="owl-example" class="owl-carousel">
-      <div class="properties">
-        <div class="image-holder"><img src="images/properties/1.jpg" class="img-responsive" alt="properties"/>
-         
-        </div>
-        <h4><a href="property-detail.php">Gedung Sultan Suriansyah</a></h4>
-        
-        <a class="btn btn-primary" href="property-detail.php">Detail</a>
-      </div>
-      <div class="properties">
-        <div class="image-holder"><img src="images/properties/2.jpg" class="img-responsive" alt="properties"/>
-    
-        </div>
-        <h4><a href="property-detail.php">Gedung Serbaguna Raya 2</a></h4>
-        
-        <a class="btn btn-primary" href="property-detail.php">Detail</a>
-      </div>
-      <div class="properties">
-        <div class="image-holder"><img src="images/properties/3.jpg" class="img-responsive" alt="properties"/></div>
-        <h4><a href="property-detail.php">Gedung Serbaguna Chandra</a></h4>
-   
-        <a class="btn btn-primary" href="property-detail.php">Detail</a>
-      </div>
-      <div class="properties">
-        <div class="image-holder"><img src="images/properties/4.jpg" class="img-responsive" alt="properties"/></div>
-        <h4><a href="property-detail.php">Gedung Serba Guna Ukhuwah</a></h4>
-        <a class="btn btn-primary" href="property-detail.php">Detail</a>
-      </div>
-      <div class="properties">
-        <div class="image-holder"><img src="images/properties/1.jpg" class="img-responsive" alt="properties"/>
- 
-        </div>
-        <h4><a href="property-detail.php">Aula Serba Guna Sabilal Muhtadin</a></h4>
-        
-        <a class="btn btn-primary" href="property-detail.php">Detail</a>
-      </div>
-      
-    </div>
-  </div>
-  <div class="spacer">
-    <div class="row">
-      <div class="col-lg-6 col-sm-9 recent-view">
+ob_start();
+session_start();
 
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<?php include'footer.php';?>
+// var_dump($_SESSION["role"]);
+// var_dump($_SESSION["nama"]);
+// var_dump($_SESSION["email"]);
+// var_dump($_SESSION["telpon"]);
+// var_dump($_SESSION["status"]);
+// var_dump($_SESSION["login"]);
+// var_dump($_SESSION["fotoProfil"]);
+
+require "config/sessionmanager.php";
+// include "config/loginlog.php";
+
+if (!isset($_SESSION["login"])) 
+{
+    header("Location: Authentication/logout.php");
+}
+
+if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 600)) {
+    $timeOut = true;
+    header("Location: Authentication/logout.php");
+}
+
+// $timeIn = true;
+$_SESSION['LAST_ACTIVITY'] = time();
+
+
+// var_dump($_SESSION['LAST_ACTIVITY']);
+?>

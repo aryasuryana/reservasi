@@ -2,7 +2,7 @@
 <!-- banner -->
 <div class="inside-banner">
   <div class="container"> 
-    <span class="pull-right"><a href="index.php">Dashboard</a> / Detail</span>
+    <span class="pull-right"><a href="dashboard.php">Dashboard</a> / Detail</span>
     <h2>Sewa</h2>
 </div>
 </div>
@@ -85,9 +85,10 @@
   <form role="form">
                 <input type="text" class="form-control" placeholder="Nama Pemesan"/>
                 <input type="text" class="form-control" placeholder="Email"/>
-                <input type="text" class="form-control" placeholder="Nomor Yang Busa DiHubungi"/>
-                <textarea rows="6" class="form-control" placeholder="Menyewa untuk apa"></textarea>
-      <button type="submit" class="btn btn-primary" name="Submit">Send Message</button>
+                <input type="text" class="form-control" placeholder="Nomor Yang Bisa DiHubungi"/>
+                 <input type="text" class="form-control" placeholder="Waktu"/>
+                <textarea rows="6" class="form-control" placeholder="Tujuan Sewa"></textarea>
+      <button type="button" class="btn btn-primary" name="button">Pesan</button>
       </form>
  </div>         
 </div>
