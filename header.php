@@ -27,11 +27,17 @@
     <script type="text/javascript" src="assets/slitslider/js/jquery.ba-cond.min.js"></script>
     <script type="text/javascript" src="assets/slitslider/js/jquery.slitslider.js"></script>
 <!-- slitslider -->
+  <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
 
 </head>
-
-<body>
-
+           
 
 <!-- Header Starts -->
 <div class="navbar-wrapper">
@@ -54,10 +60,11 @@
             <!-- Nav Starts -->
             <div class="navbar-collapse  collapse">
               <ul class="nav navbar-nav navbar-right">
-               <li><a href="index.php">Dashboard</a></li>      
+               <li><a href="dashboard.php">Dashboard</a></li>      
                 <li><a href="blog.php">Daftar Gedung </a></li>
                 <li><a href="contact.php">Pemesanan</a></li>
                 <li><a href="Tambah.php">Tambah Gedung</a></li>
+                <li><a href="login.php">Log Out</a></li>
               </ul>
             </div>
             <!-- #Nav Ends -->
@@ -66,10 +73,6 @@
         </div>
 
     </div>
-<!-- #Header Starts -->
-
-
-
 
 
 <div class="container">
