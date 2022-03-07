@@ -17,31 +17,25 @@
   <div class="form-group row">
     <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Nama Tempat</label>
     <div class="col-sm-10">
-      <input type="NamaTempat" class="form-control form-control-sm" id="colFormLabelSm" placeholder="NamaTempat">
+      <input type="text" class="form-control form-control-sm" id="colFormLabelSm" placeholder="NamaTempat">
     </div>
   </div>
   <div class="form-group row">
     <label for="colFormLabel" class="col-sm-2 col-form-label">Alamat</label>
     <div class="col-sm-10">
-      <input type="email" class="form-control" id="colFormLabel" placeholder="Alamat">
+      <input type="text" class="form-control" id="colFormLabel" placeholder="Alamat">
     </div>
   </div>
   <div class="form-group row">
     <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Nomor</label>
     <div class="col-sm-10">
-      <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Nomor">
-    </div>
-  </div>
-    <div class="form-group row">
-    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Kapasitas</label>
-    <div class="col-sm-10">
-      <input type="NamaTempat" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Kapasitas">
+      <input type="number" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Nomor Pemilik">
     </div>
   </div>
   <div class="form-group row">
     <label for="colFormLabel" class="col-sm-2 col-form-label">Harga</label>
     <div class="col-sm-10"> 
-      <input type="email" class="form-control" id="colFormLabel" placeholder="Harga">
+      <input type="number" class="form-control" id="colFormLabel" placeholder="Harga">
     </div>
   </div>
   <div class="form-group row">

@@ -64,7 +64,7 @@
                 <li><a href="blog.php">Daftar Gedung </a></li>
                 <li><a href="contact.php">Pemesanan</a></li>
                 <li><a href="Tambah.php">Tambah Gedung</a></li>
-                <li><a href="login.php">Log Out</a></li>
+                <li><a href="Authentication/logout.php" class="btn">Logout</a></li>
               </ul>
             </div>
             <!-- #Nav Ends -->
