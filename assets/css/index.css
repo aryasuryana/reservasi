@@ -1,0 +1,15 @@
+.listgroupnav a:hover {
+	background-color: white;
+}
+
+.card-info {
+	padding: 5px;
+}
+
+.card-info h1 {
+	display: inline-block;
+}
+
+.bg-orange {
+	background-color: #fd7e14;
+}

@@ -1,0 +1,46 @@
+.info-text-width {
+    width: 100%;
+}
+
+.card-perubahan {
+    max-height: 600px;
+}
+
+ul {
+    list-style-type: none;
+}
+@media (max-width: 612px) {
+    .info-perubahan {
+        font-size: 12px;
+    }
+}
+
+.profile-photo {
+    width: 96px;
+}
+
+.border-black {
+    border-color: darkslategray;
+}
+
+.bg-orange {
+    background-color: #fd7e14;
+}
+
+.manua-download:link {
+  color: cyan;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.manua-download:visited {
+  color: cyan;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.manua-download:hover {
+  color: cyan;
+  background-color: transparent;
+  text-decoration: underline;
+}
